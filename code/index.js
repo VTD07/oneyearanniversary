@@ -1,7 +1,7 @@
 function getInputValue() {
     var inputElement = document.getElementById("input");
     var inputValue = inputElement.value;
-    if(inputValue=="Embe của anh") window.location.href="../code/loadpage.html"
+    if(inputValue=="Embe của anh") window.location.href="../code/loadpage.html";
     else alert("Nằm trong tấm giấy nhỏ anh đưa embe đấy ạ");
 }
 var inputElement = document.getElementById("input");
