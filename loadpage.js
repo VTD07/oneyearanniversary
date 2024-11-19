@@ -50,5 +50,5 @@ function load() {
 }
 function pagedirect()
 {
-    window.location.href="../code/nextpage.html";
+    window.location.href="nextpage.html";
 }

@@ -7,7 +7,7 @@
 
 body,html
 {
-    background-image: url(../assert/background.png);
+    background-image: url(assert/background.png);
     height: 100%;
     background-position: center;
     background-size: cover;
