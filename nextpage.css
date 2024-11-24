@@ -413,14 +413,29 @@
   .purple {
     background-color: purple; 
   }
+.container
+{
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .text-overlay
 {
+  width: 90%;
+  height: 80%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    color: white;
     font-weight: bold;
     z-index: 100;
     pointer-events: none;
+}
+pre {
+  font-family: 'Courier New', Courier, monospace; /* Monospaced font for preformatted text */
+  font-size: 16px; /* Adjust font size for readability */
+  line-height: 1.6; /* Increase line spacing for clarity */
+  color: #333; /* Dark gray text color */
+  white-space: pre-wrap; /* Wrap long lines instead of overflowing */
 }
